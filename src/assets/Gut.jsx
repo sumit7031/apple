@@ -2,7 +2,7 @@ function Guts () {
     return (
         <div className="container">
             <img 
-                src="/img/guts.png"
+                src="./img/guts.png"
                 alt="guts"
                 className="images"
             />
