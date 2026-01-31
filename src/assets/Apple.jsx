@@ -10,7 +10,7 @@ function Apple () {
 
             {/* Image */}
             <img 
-                src="/img/apple.png"
+                src="./img/apple.png"
                 alt="Apple"
                 className="images"
             />
