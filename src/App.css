@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Melon';
+  src: url('/font/Melon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Thin';
+  src: url('/font/Thin.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Benefit {
+  font-family: 'Melon', sans-serif;
+  font-size: 150px;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  color: white;
+  scale: auto;
+}
+
+
+.Benefit-down {
+  font-family: 'Melon', sans-serif;
+  font-size: 50px;
+  position: absolute;
+  bottom: 100px;
+  right: 250px;
+  color: white;
+}
+
+.images {
+    height: 100%;
+    width: 100%;
+    scale: 85%;
+    border-radius: 30px;
+}
+
+.container {
+    position: relative;
+    width: fit-content; /* Or a specific width like 500px */
+}
+
+.blur-box {
+    /* 1. Position it over the image */
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+    /* 2. The Glass Effect */
+    background: rgba(255, 255, 255, 0.5); /* Transparent white */
+    backdrop-filter: blur(10px);          /* This blurs the background */
+    /* -webkit-backdrop-filter: blur(10px);  Safari support */
+    
+    /* 3. Styling the box */
+    padding: 20px;
+    border-radius: 15px;
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    color: rgb(23, 23, 23);
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /* Use min-width so it doesn't get too skinny on small text */
+    min-width: 200px; 
+    
+    /* Increase padding to make the box feel larger and more airy */
+    padding: 40px 60px; /* 40px top/bottom, 60px left/right */ 
+
+}
