@@ -2,7 +2,7 @@ function Heart () {
     return (
         <div className="container">
             <img 
-                src="/img/heart.png"
+                src="./img/heart.png"
                 alt="Heart"
                 className="images"
             />
